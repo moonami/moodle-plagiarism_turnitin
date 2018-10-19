@@ -26,4 +26,4 @@ Feature:  Installation succeeds
   Scenario: Test the plugin connectivity
     Given I navigate to "Plugins > Plagiarism > Turnitin" in site administration
     And I press "Test Turnitin Connection"
-    Then I should see "Connection test successful"
+    Then I should see "Connection test successful Fail"
