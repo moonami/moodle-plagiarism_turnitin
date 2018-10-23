@@ -27,7 +27,7 @@
 
 // NOTE: no MOODLE_INTERNAL test here, this file may be required by behat before including /config.php.
 
-require_once(__DIR__ . '/../../behat/behat_base.php');
+require_once(__DIR__ . '/../../behat/behat_plagiarism_turnitinadd.php');
 
 use Behat\Testwork\Hook\Scope\BeforeSuiteScope,
     Behat\Testwork\Hook\Scope\AfterSuiteScope,
