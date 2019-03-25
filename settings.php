@@ -172,6 +172,7 @@ switch ($do) {
         }
 
         $tables = array('plagiarism_turnitin_config', 'plagiarism_turnitin_files');
+        raise_memory_limit(MEMORY_HUGE); //Raise memory limit because the plagiarism_turnitin_config table can get huge
 
         foreach ($tables as $table) {
 
